@@ -30,7 +30,9 @@ docker-compose build
 docker-compose up -d
 ```
 
-## Api 
+## Run
+
+* API
 
 ```sh
  curl -X POST http://localhost:9000/api/produce \
@@ -38,7 +40,9 @@ docker-compose up -d
  -d '{"messages":200000, "size": 800}'
 ```
 
-## Web App 
+* Web Application
+
+Browser:
 
 ```sh
 http://localhost:9000
