@@ -38,7 +38,7 @@ docker-compose up -d
  -d '{"messages":200000, "size": 800}'
 ```
 
-## Web
+## Web App 
 
 ```sh
 http://localhost:9000
